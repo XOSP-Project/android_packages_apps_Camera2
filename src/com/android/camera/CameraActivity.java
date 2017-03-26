@@ -179,7 +179,8 @@ import java.util.List;
 
 public class CameraActivity extends QuickActivity
         implements AppController, CameraAgent.CameraOpenCallback,
-        ShareActionProvider.OnShareTargetSelectedListener {
+        ShareActionProvider.OnShareTargetSelectedListener,
+        SettingsManager.OnSettingChangedListener {
 
     private static final Log.Tag TAG = new Log.Tag("CameraActivity");
 
